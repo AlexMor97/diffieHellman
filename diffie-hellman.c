@@ -30,7 +30,7 @@ int main() {
     int randomx = rand(); // Obtenemos un número aleatorio entre 0 y un valor muy grande
     printf("Nuestro numero random: %d", randomx);
 
-    int X = 160; // El módulo del número que le vamos a mandar a nuestr@ compañer@
+    int X; // El módulo del número que le vamos a mandar a nuestr@ compañer@
     int Y; // El módulo del número que nos ha mandado nuestr@ compañer@
 
     X = mod_exp(raizPrimitiva, randomx, p);
