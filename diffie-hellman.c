@@ -34,9 +34,9 @@ int main() {
     int Y; // El módulo del número que nos ha mandado nuestr@ compañer@
 
     X = mod_exp(raizPrimitiva, randomx, p);
-    printf("\nEnviale el numero X: %d a tu compañer@", X);
+    printf("\nEnviale el numero X: %d a tu usuari@", X);
 
-    printf("\nDime el numero Y que te ha dado tu compañer@\n");
+    printf("\nDime el numero Y que te ha dado tu usuari@\n");
     scanf("%d", &Y);
 
     int K = mod_exp(Y,randomx,p); // Nuestra clave, hayada como Y elevado a x modulo p
